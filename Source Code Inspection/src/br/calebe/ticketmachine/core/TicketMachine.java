@@ -26,7 +26,7 @@ public class TicketMachine {
                 achou = true;
             }
         }
-        if (!achou) {
+        if (achou) {
             throw new PapelMoedaInvalidaException();
         }
         this.saldo += quantia;
@@ -37,13 +37,16 @@ public class TicketMachine {
     }
 
     public Iterator<Integer> getTroco() {
+        /* for (int j = 0; j < papelMoeda.length; j++){
+            for (int i = 0; i < papelMoeda[j]; i++){
+                
+            }
+        valorTroco = papelMoeda[j].getValue();
+                }*/
         return null;
     }
 
     public String imprimir() throws SaldoInsuficienteException {
-        if (saldo < valor) {
-            throw new SaldoInsuficienteException();
-        }
         String result = "*****************\n";
         result += "*** R$ " + saldo + ",00 ****\n";
         result += "*****************\n";
