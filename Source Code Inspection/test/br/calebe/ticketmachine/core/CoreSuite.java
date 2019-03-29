@@ -19,7 +19,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({br.calebe.ticketmachine.core.TicketMachineTest.class, br.calebe.ticketmachine.core.PapelMoedaTest.class, br.calebe.ticketmachine.core.TrocoTest.class})
 public class CoreSuite {
-
+/*
     @BeforeClass
     public static void setUpClass() throws Exception {
     }
@@ -35,5 +35,5 @@ public class CoreSuite {
     @After
     public void tearDown() throws Exception {
     }
-    
+  */  
 }

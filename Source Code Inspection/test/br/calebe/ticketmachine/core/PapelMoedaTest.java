@@ -20,7 +20,7 @@ public class PapelMoedaTest {
     
     public PapelMoedaTest() {
     }
-    
+    /*
     @BeforeClass
     public static void setUpClass() {
     }
@@ -36,7 +36,8 @@ public class PapelMoedaTest {
     @After
     public void tearDown() {
     }
-
+    */
+    
     /**
      * Test of getValor method, of class PapelMoeda.
      */

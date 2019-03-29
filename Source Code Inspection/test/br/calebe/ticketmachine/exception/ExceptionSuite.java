@@ -19,7 +19,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({br.calebe.ticketmachine.exception.SaldoInsuficienteExceptionTest.class, br.calebe.ticketmachine.exception.PapelMoedaInvalidaExceptionTest.class})
 public class ExceptionSuite {
-
+/*
     @BeforeClass
     public static void setUpClass() throws Exception {
     }
@@ -35,5 +35,5 @@ public class ExceptionSuite {
     @After
     public void tearDown() throws Exception {
     }
-    
+  */  
 }

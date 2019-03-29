@@ -21,7 +21,7 @@ public class TicketMachineTest {
     
     public TicketMachineTest() {
     }
-    
+    /*
     @BeforeClass
     public static void setUpClass() {
     }
@@ -37,7 +37,7 @@ public class TicketMachineTest {
     @After
     public void tearDown() {
     }
-
+*/
     /**
      * Test of inserir method, of class TicketMachine.
      */
