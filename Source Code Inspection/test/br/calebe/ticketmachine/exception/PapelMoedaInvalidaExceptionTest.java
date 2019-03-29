@@ -20,7 +20,7 @@ public class PapelMoedaInvalidaExceptionTest {
     
     public PapelMoedaInvalidaExceptionTest() {
     }
-    /*
+    
     @BeforeClass
     public static void setUpClass() {
     }
@@ -36,7 +36,7 @@ public class PapelMoedaInvalidaExceptionTest {
     @After
     public void tearDown() {
     }
-*/
+
     @Test
     public void testSomeMethod() {
         // TODO review the generated test code and remove the default call to fail.

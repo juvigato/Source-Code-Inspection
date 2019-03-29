@@ -20,7 +20,7 @@ public class SaldoInsuficienteExceptionTest {
     
     public SaldoInsuficienteExceptionTest() {
     }
-    /*
+    
     @BeforeClass
     public static void setUpClass() {
     }
@@ -36,7 +36,7 @@ public class SaldoInsuficienteExceptionTest {
     @After
     public void tearDown() {
     }
-*/
+
     @Test
     public void testSomeMethod() {
         // TODO review the generated test code and remove the default call to fail.

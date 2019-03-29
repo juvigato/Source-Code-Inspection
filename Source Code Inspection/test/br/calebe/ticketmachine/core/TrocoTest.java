@@ -18,7 +18,7 @@ import static org.junit.Assert.*;
  * @author leona
  */
 public class TrocoTest {
-    /*
+    
     public TrocoTest() {
     }
     
@@ -37,7 +37,7 @@ public class TrocoTest {
     @After
     public void tearDown() {
     }
-*/
+
     /**
      * Test of getIterator method, of class Troco.
      */
