@@ -51,7 +51,7 @@ public class PapelMoedaTest {
         PapelMoeda p = new PapelMoeda(5,2);
         int valor = p.getValor();
         assertEquals(0, valor);
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -60,12 +60,16 @@ public class PapelMoedaTest {
     @Test
     public void testGetQuantidade() {
         System.out.println("getQuantidade");
-        PapelMoeda instance = null;
-        int expResult = 0;
-        int result = instance.getQuantidade();
-        assertEquals(expResult, result);
+        //PapelMoeda instance = null;
+        //int expResult = 0;
+        //int result = instance.getQuantidade();
+        //assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
+        
+        PapelMoeda p = new PapelMoeda(5,2);
+        int valor = p.getQuantidade();
+        assertEquals(2, valor);
     }
     
 }
