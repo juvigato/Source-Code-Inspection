@@ -44,11 +44,13 @@ public class TicketMachineTest {
     @Test
     public void testInserir() throws Exception {
         System.out.println("inserir");
-        int quantia = 0;
-        TicketMachine instance = null;
-        instance.inserir(quantia);
+        //int quantia = 0;
+        //TicketMachine instance = null;
+        //instance.inserir(quantia);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
+        TicketMachine t = new TicketMachine(5);
+        assertTrue(t.inserir(2));
     }
 
     /**
@@ -57,12 +59,14 @@ public class TicketMachineTest {
     @Test
     public void testGetSaldo() {
         System.out.println("getSaldo");
-        TicketMachine instance = null;
-        int expResult = 0;
-        int result = instance.getSaldo();
-        assertEquals(expResult, result);
+        //TicketMachine instance = null;
+        //int expResult = 0;
+        //int result = instance.getSaldo();
+        //assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
+        TicketMachine t = new TicketMachine(5);
+        assertNull(t.getSaldo());
     }
 
     /**
@@ -71,12 +75,14 @@ public class TicketMachineTest {
     @Test
     public void testGetTroco() {
         System.out.println("getTroco");
-        TicketMachine instance = null;
-        Iterator<Integer> expResult = null;
-        Iterator<Integer> result = instance.getTroco();
-        assertEquals(expResult, result);
+        //TicketMachine instance = null;
+        //Iterator<Integer> expResult = null;
+        //Iterator<Integer> result = instance.getTroco();
+        //assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
+        TicketMachine t = new TicketMachine(5);
+        assertNotNull(t.getTroco());
     }
 
     /**
@@ -85,12 +91,14 @@ public class TicketMachineTest {
     @Test
     public void testImprimir() throws Exception {
         System.out.println("imprimir");
-        TicketMachine instance = null;
-        String expResult = "";
-        String result = instance.imprimir();
-        assertEquals(expResult, result);
+        //TicketMachine instance = null;
+        //String expResult = "";
+        //String result = instance.imprimir();
+        //assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
+        TicketMachine t = new TicketMachine(5);
+        String valor = t.imprimir();
     }
     
 }
