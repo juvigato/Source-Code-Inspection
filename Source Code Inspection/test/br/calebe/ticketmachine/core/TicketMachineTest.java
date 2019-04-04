@@ -66,7 +66,7 @@ public class TicketMachineTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
         TicketMachine t = new TicketMachine(5);
-        assertNull(t.getSaldo());
+        assertNotNull(t.getSaldo());
     }
 
     /**

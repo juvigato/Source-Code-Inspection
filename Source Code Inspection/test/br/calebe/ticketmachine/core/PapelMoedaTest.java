@@ -50,7 +50,7 @@ public class PapelMoedaTest {
         //ssertEquals(expResult, result);
         PapelMoeda p = new PapelMoeda(5,2);
         int valor = p.getValor();
-        assertEquals(0, valor);
+        assertEquals(5, valor);
         //fail("The test case is a prototype.");
     }
 
